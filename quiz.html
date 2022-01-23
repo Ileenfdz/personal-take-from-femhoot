@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/app.css">
+    <title>Femhoot | Quiz</title>
+</head>
+
+<body>
+    <header>
+        <a href="/index.html" id="title">
+            <h1>Femhoot</h1>
+        </a>
+        <div>
+            <a href="quiz.html" class="quiz-link">Quiz</a>
+            <a href="profile.html" id="profile-btn">
+                <i class="fas fa-user"></i>
+            </a>
+        </div>
+    </header>
+
+    <div class="quiz-container">
+        <div class="questions">
+            <div id="quiz"></div>
+        </div>
+        <p id="youarewrong">Try again</p>
+        <p id="youarecorrect">That's correct!<br>.Ready for the next Question?</p>
+        <p id="completed"><br> Congrats! You're done! </p>
+        <button id="checkAnswerBtn">CHECK ANSWER</button>
+    </div>
+    <footer>
+        <h3 class="copyright">Copyright © 2022 Team 8</h3>
+    </footer>
+    <script src="/scripts/modules/quiz.js" type='module'></script>
+    <script src="/scripts/modules/quizFemhoot.js" type='module'></script>
+</body>
+</html>
